@@ -335,6 +335,10 @@ body {
         /* If user wants 'zoomed out', maybe 120%? default cover is fine usually with scroll, let's try scroll first */
     }
 
+    .hero-content {
+        padding-top: 10px !important;
+    }
+
     .hero-content h1 {
         font-size: 40px;
         /* 2.5rem fixed to px for consistency */
