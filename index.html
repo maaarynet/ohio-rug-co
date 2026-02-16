@@ -111,8 +111,12 @@
             <p class="section-subtitle">Have a custom rug idea? Let’s chat!</p>
 
             <div class="contact-card">
-                <form name="contact" method="POST" data-netlify="true" enctype="multipart/form-data">
+                <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field"
+                    enctype="multipart/form-data">
                     <input type="hidden" name="form-name" value="contact" />
+                    <p class="hidden" style="display: none;">
+                        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                    </p>
                     <div class="form-group">
                         <label for="name">YOUR NAME</label>
                         <input type="text" id="name" name="name" placeholder="Jane Doe" required>
