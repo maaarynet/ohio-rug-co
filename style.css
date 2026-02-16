@@ -318,6 +318,23 @@ body {
         font-size: 16px !important;
     }
 
+    /* Fix Mobile Hero Layout */
+    .hero {
+        height: auto !important;
+        min-height: 100vh;
+        padding-top: 120px !important;
+        /* Push logo down from top */
+        padding-bottom: 200px !important;
+        /* Space for wave at bottom */
+        background-attachment: scroll !important;
+        /* Fix zoomed background */
+        background-position: center top !important;
+        /* Ensure top of image shows */
+        background-size: cover !important;
+        /* Retains cover but scroll helps feel less zoomed */
+        /* If user wants 'zoomed out', maybe 120%? default cover is fine usually with scroll, let's try scroll first */
+    }
+
     .hero-content h1 {
         font-size: 40px;
         /* 2.5rem fixed to px for consistency */
