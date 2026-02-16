@@ -322,9 +322,9 @@ body {
     .hero {
         height: auto !important;
         min-height: 100vh;
-        padding-top: 90px !important;
+        padding-top: 50px !important;
         /* Push logo down from top */
-        padding-bottom: 160px !important;
+        padding-bottom: 120px !important;
         /* Space for wave at bottom */
         background-attachment: scroll !important;
         /* Fix zoomed background */
